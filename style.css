@@ -5,7 +5,7 @@
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #d1d1d1;
 }
 ::-webkit-scrollbar-thumb {
   background: #39ff14;
@@ -147,7 +147,16 @@ a:hover {
 .bg-extra {
   background: #e8eefb !important;
 }
-
+.banner{
+  height: 85vh;
+  background: url(images/background/Tree.jpg) #818385;
+  background-size: 95%;
+  background-position: 50px ;
+  background-repeat: no-repeat;
+}
+.banner p{
+  color: #ffffff;
+}
 .text-color {
   color: #39ff14;
 }
@@ -342,6 +351,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   }
 }
 .portfolio {
+  padding-top: 40px;
   padding-bottom: 100px;
 }
 .portfolio .btn:focus, .portfolio .btn:hover, .portfolio .btn.focus.active {
