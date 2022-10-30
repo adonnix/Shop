@@ -2,6 +2,23 @@
 html {
   overflow-x: hidden;
 }
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #39ff14;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #39ff14;
+}
+
 
 body {
   font-family: "Lato", sans-serif;
