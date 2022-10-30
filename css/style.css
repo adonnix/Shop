@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,600,700|Work+Sans:400,700,800");
-html {
-  overflow-x: hidden;
-}
+
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -19,7 +17,9 @@ html {
     background: #39ff14;
 }
 
-
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
