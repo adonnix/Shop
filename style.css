@@ -149,9 +149,11 @@ a:hover {
 }
 .banner{
   height: 85vh;
-  background: url(images/background/Tree.jpg);
-  background-size: 95%;
+  background: url(images/background/Tree.jpg) #818385;
+  min-height: 60vh;
+  background-size: cover;
   background-position: 50px ;
+  background-position-x: right;
   background-repeat: no-repeat;
 }
 .banner p{
