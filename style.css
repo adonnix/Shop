@@ -360,7 +360,8 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 section .content{
   width: 80%;
-  margin: 40px auto;
+  height: 80vh;
+  margin: 80px 20px 40px 150px;
   font-family: 'Poppins', sans-serif;
 }
 .about .about-details{
@@ -406,7 +407,7 @@ section .title span::after{
   border-radius: 12px;
 }
 .about-details .right{
-  width: 55%;
+  width: 110%;
 }
 section  .topic{
   color: #0E2431;
